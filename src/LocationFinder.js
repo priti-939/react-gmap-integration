@@ -43,7 +43,6 @@ const LocationFinder = () => {
     if (markerAdd === "") {
       setMarErr("Please enter search address.");
     } else {
-      Geocode.setApiKey("AIzaSyA7dNpH3RwUFmOcEuk5tDShgzWP1-mzu-I");
       // set response language. Defaults to english.
       Geocode.setLanguage("en");
       // set response region. Its optional.
